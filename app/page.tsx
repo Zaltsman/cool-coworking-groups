@@ -144,11 +144,11 @@ export default function Home() {
       <div className="border-b border-border-color">
         <div className="max-w-[1400px] mx-auto px-8 py-12">
           <div className="flex items-center gap-3 mb-3">
-           <img 
-            src="https://res.cloudinary.com/dmukukwp6/image/upload/v1710055416/posthog.com/contents/images/media/social-media-headers/hogs/builder_hog.png"
-            alt="Builder Hog"
-            style={{ height: '64px', width: 'auto' }}
-            className="object-contain"
+            <img 
+              src="https://res.cloudinary.com/dmukukwp6/image/upload/v1710055416/posthog.com/contents/images/media/social-media-headers/hogs/builder_hog.png"
+              alt="Builder Hog"
+              style={{ height: '64px', width: 'auto' }}
+              className="object-contain"
             />
             <h1 className="mb-0">Cool co-working groups (for builders)</h1>
           </div>
@@ -521,7 +521,7 @@ export default function Home() {
         <div className="mt-12 border-t border-border-color pt-12">
           <h2 className="mb-4">Further Reading</h2>
           <p className="text-large opacity-90 mb-6">
-            Writing and resources from co-working communities we're inspired by.
+            Writing and resources from co-working communities we&apos;re inspired by.
           </p>
           <ul className="space-y-3">
             <li>
