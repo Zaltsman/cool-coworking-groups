@@ -1,4 +1,12 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Let's build together! 
+
+This is an app meant to encourage more co-working communities to exist and flourish around the world. More co-working groups means more building which means more learning and connecting. It was also an excuse to play with Supabase at the [Select Hackathon](https://hackathon.supabase.com/)) at Y Combinator on Oct 4, 2025. 
+
+The next step for this app will be to use it as inspiration and bring it to production on [PostHog's website](posthog.com).  
+
+## About the app
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app). The database is running on [Supabase](https://supabase.com/).)
 
 ## Getting Started
 
@@ -6,12 +14,6 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
