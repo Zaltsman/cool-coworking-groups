@@ -167,7 +167,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="text-posthog-red hover:opacity-100 font-semibold"
             >
-              Learn more
+              Learn more →
             </a>
           </p>
         </div>
@@ -284,8 +284,7 @@ export default function Home() {
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-1"
                         >
-                          Website
-                          <span className="text-xs">↗</span>
+                          Website →
                         </a>
                       ) : (
                         <span className="text-posthog-gray text-small">—</span>
@@ -316,7 +315,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="text-posthog-red hover:opacity-100 font-semibold"
             >
-              Learn more
+              Learn more →
             </a>
           </p>
           <Map groups={groups} />
@@ -517,6 +516,46 @@ export default function Home() {
             )}
           </div>
         )}
+
+        {/* Further Reading */}
+        <div className="mt-12 border-t border-border-color pt-12">
+          <h2 className="mb-4">Further Reading</h2>
+          <p className="text-large opacity-90 mb-6">
+            Writing and resources from co-working communities we're inspired by.
+          </p>
+          <ul className="space-y-3">
+            <li>
+              <a
+                href="https://buildspace.so/letter"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-posthog-red hover:opacity-100 font-semibold"
+              >
+                Buildspace Letter →
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://toolbox.socratica.info/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-posthog-red hover:opacity-100 font-semibold"
+              >
+                Socratica Toolbox →
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://x.com/itsDrDrewithaSh/status/1941939862996660669"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-posthog-red hover:opacity-100 font-semibold"
+              >
+                @itsDrDrewithaSh on X →
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </main>
   )
