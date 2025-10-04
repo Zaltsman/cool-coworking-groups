@@ -144,11 +144,11 @@ export default function Home() {
       <div className="border-b border-border-color">
         <div className="max-w-[1400px] mx-auto px-8 py-12">
           <div className="flex items-center gap-3 mb-3">
-            <img 
-              src="https://res.cloudinary.com/dmukukwp6/image/upload/v1710055416/posthog.com/contents/images/media/social-media-headers/hogs/builder_hog.png"
-              alt="Builder Hog"
-              style={{ height: '64px', width: 'auto' }}
-              className="object-contain"
+           <img 
+            src="https://res.cloudinary.com/dmukukwp6/image/upload/v1710055416/posthog.com/contents/images/media/social-media-headers/hogs/builder_hog.png"
+            alt="Builder Hog"
+            style={{ height: '64px', width: 'auto' }}
+            className="object-contain"
             />
             <h1 className="mb-0">Cool co-working groups (for builders)</h1>
           </div>
